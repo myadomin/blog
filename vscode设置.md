@@ -3,8 +3,6 @@
 * 设置
 ``` json
 {
-  "window.zoomLevel": 2,
-  "git.ignoreMissingGitWarning": true,
   "git.ignoreMissingGitWarning": true,
   "editor.fontSize": 16,
   "window.zoomLevel": 1,
