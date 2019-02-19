@@ -17,7 +17,10 @@
 * 生命周期：
   * componentDidMount 初始数据请求放这里
   * componentWillReceiveProps props变化触发 暴露nextProps
-  * shouldComponentUpdate 组件是否重新render 优化关键点
+  * componentWillReceiveProps props或state变化触发 暴露nextProps nextState
+  * 生命周期图解
+    ![Alt text](./img/react-lift.png)
+    [参考文档](https://segmentfault.com/a/1190000004168886?utm_source=tag-newest#articleHeader8)
 * render：什么时候会重新render
   * 首次加载
   * setState改变组件内部state。 
