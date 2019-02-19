@@ -1,12 +1,16 @@
 ### 概述
-本文将介绍如何写一套类似vue-cli的工具，自动生成vue或者react的脚手架
+本文将介绍如何写一套类似vue-cli的工具，自动生成vue或者react的脚手架，最终打包上传到npm上，包名叫做`adomin-cli`
+
+### 源码相关
+* adomin-cli源码参考我的github [adomin-cli](https://github.com/myadomin/adomin-cli)
+* react模板参考我的github [react-temp](https://github.com/myadomin/react-temp)
+* vue模板参考我的github [vue-temp](https://github.com/myadomin/vue-temp)
 
 ### 大致思路
 * `commander` 获取当前cmd输入参数
 * `inquirer` 获取cmd问询后的信息对象meta
 * `download-git-repo` 根据cmd输入参数去git下载对应的脚手架模板
 * `metalsmith` `handlebars` 根据meta将脚手架模板处理生成为需要的文件
-* [源码参考我的github](https://github.com/myadomin/adomin-cli)
 
 ### 新建index.js文件
 ``` javascript
