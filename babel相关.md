@@ -1,6 +1,6 @@
 ## babel相关
-用vue及react等框架一般会用es6, 而部分浏览器只能兼任到es5，所以用babel进行es6编译及转换为es5给浏览器解析，本文主要讲解`babel-loader`、`.babelrc`、`babel-preset-xxx`、`babel-polyfill`、` babel-plugin-transform-runtime`等概念，如何一步步配置babel。
-1. 安装`babel-core` `babel-loader`, webpack配置babel-loader
+用vue及react等框架一般会用es6, 而部分浏览器只能兼任到es5，所以用babel进行es6编译及转换为es5给浏览器解析，本文主要讲解`babel-loader`、`.babelrc`、`babel-preset-xxx`、`babel-polyfill`等概念，如何一步步配置babel。
+#### 安装`babel-core` `babel-loader`, webpack配置babel-loader
 ``` javascript
 {
   // babel-loader编译js文件 不包括node_modules文件
@@ -9,7 +9,7 @@
   use: ['babel-loader']
 },
 ```
-2. babel-loader可以编译js了，具体按什么规则编译，所以要写`.babelrc`
+#### babel-loader可以编译js了，具体按什么规则编译，所以要写`.babelrc`
 * 安装`babel-preset-env`, `babel-preset-react`,`babel-preset-stage-0`,
 * package.json中定义`.babelrc.js`(相比`.babelrc`这种json文件js文件可以写注释)
 ``` json
@@ -38,11 +38,11 @@ module.exports = {
   ]
 }
 ```
-3. 引入`babel-polyfill`
+#### 引入`babel-polyfill`
 babel默认只转换新的JavaScript语法，而不转换新的API。 例如，Iterator、Generator、Set、Maps、Proxy、Reflect、Symbol、Promise 等全局对象，以及一些定义在全局对象上的方法（比如 Object.assign）都不会转译。这个时候就需要`babel-polyfill`来转换了。
 安装`babel-polyfill`，在入口文件`import 'babel-polyfill'`
 **到这里你就可以放心的使用es6了！！！！**
-4. 一些优化点
+#### 一些优化点
 * 可以考虑`babel-polyfill`放入webpack entry vendor里
 * 可以优化.babelrc.js如下
 ``` javascript
