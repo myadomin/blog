@@ -1,0 +1,60 @@
+历史列表起始url
+深圳大事件 https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NTczOTMzMQ==&scene=123&uin=MTM2ODU2MDk1&key=42020ef27e862c52c0e8f4dbd7e1ffa6062ecf4b6b4025f2e840bfffb93baddb52ddedb7c4ce8dd895ad731d86eb51b9ddcd49fc2b1d47aa7017cbd8ef56856a8f772249aee1c1bcb2dfadaa29e96ffa&devicetype=Windows+10&version=62060739&lang=zh_CN&a8scene=1&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D
+          https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NTczOTMzMQ==&scene=123&uin=MTM2ODU2MDk1&key=9fb83b7e4536d659d77cde739ea78fa321a345ad9394b9bad2fc4247c0c5ec1b0a77861671ca53aaf5410fbcced654b8a6bc335e64fdb2e83dd46bcbba5c42161ca689e8dd61135896f59cd16d3c55b9&devicetype=Windows+10&version=62060739&lang=zh_CN&a8scene=1&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D
+          https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MzA4NTczOTMzMQ==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=MTM2ODU2MDk1&key=9fb83b7e4536d659d77cde739ea78fa321a345ad9394b9bad2fc4247c0c5ec1b0a77861671ca53aaf5410fbcced654b8a6bc335e64fdb2e83dd46bcbba5c42161ca689e8dd61135896f59cd16d3c55b9&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D&wxtoken=&appmsg_token=1001_DNzslaEj%252FNILQx7KGp9zWLrkbYqFSaGvngJDBw~~&x5=0&f=json
+腾讯科技   https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mjc1NjM3MjY2MA==&scene=123&uin=MTM2ODU2MDk1&key=bbc31b5cea4812d7574c7882add066b9a5bdcec7f389df20963ecdec605620dae9032ce7b29c2ee9916bb10eecbdf37ec5f812a06561be5b6af0e0c32164859289b346e0eed315fb966679e9d1a49d81&devicetype=Windows+10&version=62060739&lang=zh_CN&a8scene=1&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D
+          
+          
+key biz 不同
+key 过几分钟就失效
+uin pass_ticket 等相同
+
+详情url 
+key和起始url一样 offset下一批 多了appmsg_token
+action: getmsg
+__biz: Mjc1NjM3MjY2MA== 起始url有
+f: json
+offset: 10
+count: 10
+is_ok: 1
+scene: 123 起始url有
+uin: MTM2ODU2MDk1 起始url有
+起始url有 
+key: bbc31b5cea4812d7574c7882add066b9a5bdcec7f389df20963ecdec605620dae9032ce7b29c2ee9916bb10eecbdf37ec5f812a06561be5b6af0e0c32164859289b346e0eed315fb966679e9d1a49d81
+pass_ticket: FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY= 起始url有
+wxtoken: 
+appmsg_token: 1001_Zpkz9bijLEgxIEPqLN7O4OUzxd8p9dPj9Sxfwg~~ 
+x5: 0
+f: json
+深圳大事件 https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MzA4NTczOTMzMQ==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=MTM2ODU2MDk1&key=9fb83b7e4536d659d77cde739ea78fa321a345ad9394b9bad2fc4247c0c5ec1b0a77861671ca53aaf5410fbcced654b8a6bc335e64fdb2e83dd46bcbba5c42161ca689e8dd61135896f59cd16d3c55b9&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D&wxtoken=&appmsg_token=1001_DNzslaEj%252FNILQx7KGp9zWLrkbYqFSaGvngJDBw~~&x5=0&f=json
+腾讯科技   https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=Mjc1NjM3MjY2MA==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=MTM2ODU2MDk1&key=bbc31b5cea4812d7574c7882add066b9a5bdcec7f389df20963ecdec605620dae9032ce7b29c2ee9916bb10eecbdf37ec5f812a06561be5b6af0e0c32164859289b346e0eed315fb966679e9d1a49d81&pass_ticket=FLmWy9PItO5kaGM1PX1KoeunVIHN1syNfTmr4pLgIrY%3D&wxtoken=&appmsg_token=1001_Zpkz9bijLEgxIEPqLN7O4OUzxd8p9dPj9Sxfwg~~&x5=0&f=json
+
+
+如果是公众号历史文章 分享链接
+问题 起始url不带key了 10分钟后刷新下看是否链接长期有效？？？？目前来看2小时都是有效的
+问题 更多url appmsg_token如何写死构造更多url？ 每个公众号不一样 一个公众号刷新后也不一样
+
+
+腾讯科技起始https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mjc1NjM3MjY2MA==&scene=123&from=singlemessage&isappinstalled=0#wechat_redirect
+腾讯科技详情https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=Mjc1NjM3MjY2MA==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=777&key=777&pass_ticket=&wxtoken=&appmsg_token=1001_%252BHRA3pGNzc1DlyEqTtEb8cYdSyI8xNH8AdpCuw~~&x5=0&f=json
+
+深圳大事起始https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NTczOTMzMQ==&scene=123&from=singlemessage&isappinstalled=0#wechat_redirect
+深圳大事更多https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MzA4NTczOTMzMQ==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=777&key=777&pass_ticket=&wxtoken=&appmsg_token=1001_kE7VgIuFgl3zoSm%252BhKdgjG3797X9Y11TjjZ1Tg~~&x5=0&f=json
+
+
+结论：：：
+微信列表数据都是通过ajax接口拿的
+获取接口方法：进入某个公众号全部消息 点复制链接发到pc 通过pc打开后下拉列表看到接口 如下
+https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MzA4NTczOTMzMQ==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=777&key=777&pass_ticket=&wxtoken=&appmsg_token=1001_DEmrG1nV5iLOZhKjbsYckQluEMdslkkKIup8lQ~~&x5=0&f=json
+起始offset=0 count=10 每一次发送的公众号(可能有几篇)算1个count 所以count=10其实有几十篇文章
+下一批offset=10 count=10
+__biz=MzA4NTczOTMzMQ 公众号标识
+appmsg_token: 1001_DEmrG1nV5iLOZhKjbsYckQluEMdslkkKIup8lQ~~
+可以写死 在任何公众号里面都有效并且数据也一致 appmsg_token多久失效 几个小时都没失效
+
+cookie机制
+进入某个公众号全部消息 发送某个公众号给朋友(不能是复制链接) pc打开得到cookie 
+如果打开的是__biz=MzI3NzQyNDMxMA的公众号 复制此时的cookie才能请求__biz=MzI3NzQyNDMxMA公众号的微信列表接口
+所以说 需要用某个公众号的微信列表接口必须按上面的方法先打开此公众号 此时cookie更新
+如果要转某10个公众号 先按发送如何打开这10个公众号 复制cookie才能抓这10个公众号的列表接口？
+https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzQyNDMxMA==&scene=123&uin=MTM2ODU2MDk1&key=ba04e7824a084b7ee8e1d4f329abb355ee1acb73da1ed1173a9b430101b4ac032508e60cc59ebad8dff20c7d2eba69629c9006d6dac50ecbffd1b3c96ab62ed6dfd11964d30f3bf6551e590cb9836120&devicetype=Windows+10&version=62060739&lang=zh_CN&a8scene=1&pass_ticket=U1pc5gJEPj%2FW8LpbPLACWgNxGegutfRYFnPWbBXFmg8%3D
