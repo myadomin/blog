@@ -1,5 +1,5 @@
 ## babel相关
-用vue及react等框架一般会用es6, 而部分浏览器只能兼任到es5，所以用babel进行es6编译及转换为es5给浏览器解析，本文主要讲解`babel-loader`、`.babelrc`、`babel-preset-xxx`、`babel-polyfill`等概念，如何一步步配置babel。
+用vue及react等框架一般会用es6, 而部分浏览器只能兼任到es5，所以用babel进行es6编译及转换为es5给浏览器解析，本文主要讲解`babel-loader`、`.babelrc`、`babel-preset-xxx`、`babel-polyfill`等概念，如何一步步的配置babel。
 #### 安装`babel-core` `babel-loader`, webpack配置babel-loader
 ``` javascript
 {
