@@ -1,7 +1,7 @@
 ## vue路由懒加载
 * 参考 [vue-router官网](https://router.vuejs.org/guide/advanced/lazy-loading.html#grouping-components-in-the-same-chunk) 做如下import
 ``` javascript
-// 动态import webpack代码分割
+// 动态import页面 webpack代码分割
 const Home = () => import('@/view/Home.vue')
 const Test = () => import('@/view/Test.vue')
 
