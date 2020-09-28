@@ -1,5 +1,6 @@
 ### 提纲
 * react
+* hooks
 * redux
 * react-redux
 * redux-thunk
@@ -72,6 +73,17 @@ class InputControlES6 extends React.Component {
 * states 组件内部状态
 * 子组件想往父组件传数据，父组件定义函数传到子组件执行后回调到父组件函数的参数里
 * 抽组件的时候，让子组件尽量为无状态组件（形成 props => 组件 的抽象，便于复用）
+##### Component与PureComponent
+* Component：props或者state重新setState即使值一样也会重新触发刷新
+* PureComponent：props或者state重新setState，除非值不一样或者对象类型(例如数组)指向对象变化(浅比较)，否则不触发刷新
+* PureComponent相当于自动做了shouldComponentUpdate优化
+
+### hooks
+* useState
+* useEffect 注意第二个参数不写、[]、[a]三种情况的区别
+* useReducer配合useContext，组件间状态传递
+* useMemo useCallback，第二个参数state变化才会执行第一个参数函数
+* useRef 拿到dom节点
 
 ### redux
 为了解决组件间的状态传递 启用redux
